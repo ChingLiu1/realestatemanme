@@ -20,6 +20,14 @@
   background-color: rgb(242, 246, 255);
 }
 
+
+#banner{
+    height: 70vh;
+    background-image: url("images/carousel/b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* agents */
 #agents{
       background-color: rgb(223, 255, 223);
