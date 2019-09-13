@@ -38,7 +38,7 @@ function popMenu(a, b, c){
                         <button type="button" class="btn btn-outline-success btn-block">Contact Agent</button>
                     </div>
                     <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary btn-block"><a
+                        <button type="button" class="btn btn-primary btn-block"><a 
                          style="text-decoration:none;color:white;" href="tour.html" target="_blank">Take Tour</a></button>
                     </div>
               </div>
@@ -47,12 +47,15 @@ function popMenu(a, b, c){
         </div>
       </div>
   `;
-
-
+    
+    
     //code to close the pop up menu
-
+    
    document.querySelector("#closeButton").addEventListener("click", () => {
          parentElement.removeChild(newElement);
     });
-
+    
 }
+
+
+

@@ -145,3 +145,23 @@ iframe{
   text-shadow: 2px 2px 2px red;
 
 }
+
+/**/
+
+#latestProperties p{
+    display: none;
+    color: red;
+}
+
+
+/*agent styles*/
+#Agent{
+  position: fixed;
+  display: none;
+  left:0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 120;
+  background: rgba(100, 100, 100, 0.5);
+}
